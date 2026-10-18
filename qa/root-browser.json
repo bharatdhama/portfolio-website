@@ -1,0 +1,85 @@
+{
+  "base": "http://flight-mode.test/",
+  "checks": [
+    {
+      "name": "initial state is idle; page title and content are present",
+      "status": "pass"
+    },
+    {
+      "name": "no horizontal overflow at 360px",
+      "status": "pass"
+    },
+    {
+      "name": "no horizontal overflow at 390px",
+      "status": "pass"
+    },
+    {
+      "name": "no horizontal overflow at 768px",
+      "status": "pass"
+    },
+    {
+      "name": "no horizontal overflow at 1024px",
+      "status": "pass"
+    },
+    {
+      "name": "no horizontal overflow at 1440px",
+      "status": "pass"
+    },
+    {
+      "name": "all six project actions open correct details and restore focus",
+      "status": "pass"
+    },
+    {
+      "name": "conventional navigation works without playing",
+      "status": "pass"
+    },
+    {
+      "name": "verified email and local résumé download respond",
+      "status": "pass"
+    },
+    {
+      "name": "Enter starts; Space, W, Arrow Up flap without page scroll",
+      "status": "pass"
+    },
+    {
+      "name": "Escape pauses and resumes preserving physics",
+      "status": "pass"
+    },
+    {
+      "name": "pause button and explicit resume work",
+      "status": "pass"
+    },
+    {
+      "name": "pointer click triggers flap",
+      "status": "pass"
+    },
+    {
+      "name": "collision causes game over; Enter restarts with zero score",
+      "status": "pass"
+    },
+    {
+      "name": "real obstacles can be passed; score and best persist after reload",
+      "status": "pass"
+    },
+    {
+      "name": "leaving game pauses rather than hiding running simulation",
+      "status": "pass"
+    },
+    {
+      "name": "reduced-motion disables nonessential CSS movement",
+      "status": "pass"
+    },
+    {
+      "name": "touch pointer and active scroll containment work on mobile",
+      "status": "pass"
+    },
+    {
+      "name": "visible focus treatment exists and no app exceptions occurred",
+      "status": "pass"
+    }
+  ],
+  "exceptions": [],
+  "consoleErrors": [],
+  "note": "External font CSS was intentionally fulfilled empty to test offline system-font fallback; no live font-network behavior is asserted.",
+  "passed": 19
+}
